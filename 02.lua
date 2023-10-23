@@ -1676,6 +1676,7 @@ function Ui:Window(text)
                 ToggleSBtn.Text = ""
                 ToggleSBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
                 ToggleSBtn.TextSize = 14.000
+                ToggleSBtn.ZIndex = 4
                 local checkentertoggles = true
 
                 ToggleSBtn.MouseButton1Click:Connect(function()
