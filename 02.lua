@@ -1611,7 +1611,7 @@ function Ui:Window(text)
                 return dropfunc
             end
 
-            function Item:Togglei(text,default,callback)
+            function Item:Toggle(text,default,callback)
                 local ToggleSFrame = Instance.new("Frame")
                 local LabelToggleS = Instance.new("TextLabel")
                 local ToggleS = Instance.new("Frame")
@@ -1919,7 +1919,7 @@ function Ui:Window(text)
                 return funclabel
             end
 
-            function Item:Toggle(text,default,callback)
+            function Item:Toggler(text,default,callback)
                 local ToggleFrame = Instance.new("Frame")
                 local LabelToggle = Instance.new("TextLabel")
                 local Toggle = Instance.new("ImageLabel")
